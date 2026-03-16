@@ -7,11 +7,11 @@ variable "environment" {
 }
 
 variable "zone_id" {
-    default = "Z0948150OFPSYTNVYZOY"
+    default = "Z041144734BYFQU10548L"
 }
 
 variable "domain_name" {
-    default = "daws86s.fun"
+    default = "ganeshlabs.online"
 }
 
 variable "eks_version" {

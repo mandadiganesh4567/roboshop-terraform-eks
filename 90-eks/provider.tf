@@ -2,13 +2,13 @@ terraform {
   required_providers {
     aws = {
       source = "hashicorp/aws"
-      version = "6.23.0"
+      version = "6.16.0"
     }
   }
 
   backend "s3" {
-    bucket = "remote-state-86s-dev"
-    key    = "roboshop-dev-eks"
+    bucket = "ganesh-lab-demo"
+    key    = "roboshop-eks-jenkins"
     region = "us-east-1"
     use_lockfile = true
     encrypt = true
