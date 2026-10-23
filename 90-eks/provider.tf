@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "ganesh-lab-demo"
+    bucket = "ganesh-lab-dem"
     key    = "roboshop-eks-jenkins"
     region = "us-east-1"
     use_lockfile = true
